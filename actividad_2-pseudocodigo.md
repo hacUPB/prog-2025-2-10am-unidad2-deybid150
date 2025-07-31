@@ -16,3 +16,18 @@
 **Imagen ilustrativa.**
 
 ![imagaen ilustrativa](<Captura de pantalla 2025-07-31 104623-1.png>)
+
+**ejercicio 2**
+
+Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
+
+**solucion**
+
+```
+inicio
+leer ID, S1, S2, S3, S4, S5, S6
+Total = Total / 6
+Escribir ID, Total, Promedio
+Fin
+```
+
