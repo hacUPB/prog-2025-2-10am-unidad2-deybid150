@@ -30,4 +30,7 @@ Total = Total / 6
 Escribir ID, Total, Promedio
 Fin
 ```
+**diagrama de flujo**
+
+![diagrama de flujo](<diagrama ej 2.drawio.png>)
 
