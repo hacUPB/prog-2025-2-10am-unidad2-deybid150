@@ -34,3 +34,26 @@ Fin
 
 ![diagrama de flujo](<diagrama ej 2.drawio.png>)
 
+| variables | tipo | comentario|
+|-----------|------|-----------|
+| lapices   | entrada|cantidad de lapices|
+| precio    | salida|precio total|
+| valor_unidad| intermedia |valor unitario de cada lapiz|
+| 85, 90    | constantes|no cambian|
+
+```
+inicio
+leer lapices
+si lapices >= 1000:
+   valor_unidad = 85
+si no
+   valor_unidad = 90
+fin si
+precio = lapices * valor_unidad
+escribir "el valor total es:" , precio
+fin
+```
+**diagrama de flujo**
+
+![imagen ilustrativa](<lapices m .drawio.png>)
+
