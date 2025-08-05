@@ -57,3 +57,55 @@ fin
 
 ![imagen ilustrativa](<lapices m .drawio.png>)
 
+**EJERCICIO 4**
+
+|variables|tipo|comentario|
+|---------|----|----------|
+|total compra|entrada|valor de la compra|
+|descuento|salida|descuento segun el valor de la compra
+|precio final|salida|valor a pagar|
+|15%, 8%, $250000|constantes|descuentos y valor limite|
+
+
+**Pseudocodigo**
+
+```
+
+```
+
+**diagrama de flujo**
+
+**EJERCICIO 5**
+
+|VARIABLES|TIPO|COMENTARIO|
+|---------|----|----------|
+|alumnos|entrada|la cantidad de alumnos|
+|costo alumno|salida|el costo por alumno|
+|costo total|salida|costo completo|
+|>= 100, 65.00|constante|precio cuando es mas de 100 alumnos|
+|(50-99), 70.00|constante|precio cuando los alumnos son entre 50 a 99|
+|(30-49), 95.00|constante|precio cuando los alumnos son entre 30 a 49|
+|<30, 4000.00|constante|precio cuando los alumnos son menores de 30|
+
+**Pseudocodigo**
+
+```
+inicio
+leer alumnos
+si
+alumnos >= 100
+   costo alumno = 65.00
+si no
+   si
+   alumnos >= 50
+      costo alumno = 70.00
+   si no
+      si
+      alumnos >= 49
+         costo alumno = 95.00
+      si no
+         si
+
+```
+
+**diagrama de flujo**
