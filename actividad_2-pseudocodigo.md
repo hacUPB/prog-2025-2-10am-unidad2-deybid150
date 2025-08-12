@@ -132,3 +132,41 @@ Fin
 **diagrama de flujo**
 
 ![alt text](<ej 6 df.jpg>)
+
+
+**BUCLES**
+
+Se requiere un algoritmo para obtener la suma de diez cantidades, que se leen del teclado, mediante la utilización de un ciclo while. Realice el diagrama de flujo y el pseudocódigo.
+
+|input|output|control|
+|-----|------|-------|
+|Cantidad|Suma (acumulador)|i|
+
+**pseudocodigo**
+
+**while**
+
+```
+Inicio
+SU = 0
+i = 0
+while C <  10
+     Leer cantidad
+     Suma = Suma + cantidad
+     i = i + 1
+Fin mientras
+Escribir Suma
+Fin
+```
+
+**for**
+
+```
+Inicio
+SU = 0
+for i = 1 hasta i = 10
+     Leer cantidad
+     Suma = Suma + cantidad
+Fin desde
+Escribir Suma
+Fin
