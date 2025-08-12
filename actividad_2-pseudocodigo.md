@@ -109,3 +109,26 @@ si no
 ```
 
 **diagrama de flujo**
+
+**ejercicio 6**
+
+**pseudocodigo**
+```
+Inicio
+Leer Día_Nacimiento, Mes_Nacimiento, Año_Nacimiento
+Leer Día_Actual, Mes_Actual, Año_Actual
+Edad = Año_Actual - Año_Nacimiento
+Si Mes_Actual < Mes_Nacimiento:
+    Edad = Edad -1
+Si no
+    Si (Mes_Actual = Mes_Nacimiento) y (Dia_Actual < Dia_Nacimiento):
+        Edad = Edad -1 
+    Fin Si
+Fin Si
+Escribir "La edad es: ", Edad, " años"
+Fin
+```
+
+**diagrama de flujo**
+
+![alt text](<ej 6 df.jpg>)
